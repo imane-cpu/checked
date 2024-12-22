@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-color: #E2DAD6;
+}
+
+div {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    width: 400px;
+    gap: 30px;
+    margin: 0 auto;
+    background-color: #6482AD;
+    text-align: center;
+    border: none;
+    border-radius: 60px;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #F5EDED;
+}
+
+input {
+    place-self: center;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#div2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    padding: 20px;
+}
+
+button {
+    background-color: #F5EDED;
+    border: none;
+    border-radius: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
